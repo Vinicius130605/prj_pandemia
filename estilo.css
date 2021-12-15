@@ -1,0 +1,215 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+main{
+	margin-left: 120px;
+	margin-right: 120px;
+}
+body{
+	background-color: #fbfaf9;
+}
+p{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 18px;
+}
+
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #000e42;
+	height: 8vh;
+	padding: 15px;
+}
+a{
+	color: #ffffff;
+	text-decoration: none;
+	transition: 0,3s
+}
+a:hover{
+	opacity: 0.7;
+}
+h1{
+	font-size: 40px;
+	text-align: center;
+	padding: 50px;
+	font-family: 'Raleway', sans-serif;
+}
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+}
+section{
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	height: 80vh;
+}
+form{
+	font-family: 'Varela Round', sans-serif;
+}
+form div{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+form input, form textarea{
+	outline: unset;
+	padding: 20px;
+	min-width: 300px;
+	border: 1px solid; color: #000e42;
+	border-radius: 20px;
+}
+#conteudo_pag1 img{
+	width: 1280px;
+	height: 720px;
+}
+#covid h2{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+#covid p{
+	padding-right: 50px;
+	padding-left: 50px;
+	text-align: justify;
+	padding-bottom: 15px;
+
+}
+#covid a{
+	color: #000e42;
+	padding: 50px ;
+}
+#area_rodape{
+	background-color: black;
+	color: white;
+	height: 8vh;
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+}
+#relato_carol{
+	margin-bottom: 15px;
+	margin-left: 15px;
+	background-color: #fbfaf9;
+	width: 400px;
+	display: inline-table;
+}
+#relato_carol:hover{
+	background-color: #dbdbdb;
+}
+#relato_carol img{
+	padding-top: 15px;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+#relato_carol h2{
+	padding: 15px;
+	text-align: center;
+}
+#relato_carol p{
+	text-align: justify;
+	padding: 15px;
+}
+#relato_ana{
+	margin-bottom: 15px;
+	background-color: #fbfaf9;
+	width: 400px;
+	display: inline-table;
+}
+#relato_ana:hover{
+	background-color: #dbdbdb;
+}
+#relato_ana img{
+	padding-top: 15px;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+#relato_ana h2{
+	padding: 15px;
+	text-align: center;
+}
+#relato_ana p{
+	text-align: justify;
+	padding: 15px;
+}
+#relato_lucas{
+	margin-bottom: 15px;
+	background-color: #fbfaf9;
+	width: 400px;
+	display: inline-table;
+}
+#relato_lucas:hover{
+	background-color: #dbdbdb;
+}
+#relato_lucas img{
+	padding-top: 15px;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+#relato_lucas h2{
+	padding: 15px;
+	text-align: center;
+}
+#relato_lucas p{
+	text-align: justify;
+	padding: 15px;
+}
+#conteudo_pag3 img{
+	width: 1280px;
+	height: 720;
+}
+#mitos{
+	display: inline;
+	width: 600px;
+}
+#mitos h2{
+	padding-top: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	text-align: left;
+}
+#mitos p{
+	text-align: justify;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 30px;
+}
+#fatos{
+	display: inline;
+}
+#fatos h2{
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+#fatos p{
+	text-align: justify;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 30px;
+}
+#form img{
+	float: right;
+	width: 720px;
+	padding: 20px;
+}
+.logo{
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.nav-list{
+	list-style: none;
+	display: flex;
+}
+.nav-list li{
+	letter-spacing: 3px;
+	margin-left: 32px;
+}
